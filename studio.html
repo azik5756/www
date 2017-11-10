@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="rolex.css">
+</head>
+<body>
+<div class="block1">
+        <span class="b">Y</span>
+		<div class="t">
+		   <div class="ft"></div>
+		   <div class="st"></div>
+		</div>
+		<span id="x">X</span> 
+        <div class="d">
+        	<div class="left"></div>
+        	<div class="circle"></div>
+        </div>
+        <div class="i-letter"></div>
+        <div class="ball"></div>
+</div>
+<script>
+  function first()
+  {
+    var a=document.getElementsByTagName('span');
+	a[0].innerHTML="S";
+  }
+  setTimeout(first,500);
+   function second()
+  {
+    var a=document.getElementsByTagName('span');
+    a[1].style.opacity="1";
+	a[1].innerHTML="U";
+  }
+  setTimeout(second,3000);
+    function secondc()
+  {
+    var a=document.getElementsByClassName('left');
+    a[0].style.opacity="1";
+  }
+  setTimeout(secondc,3900);
+   function secondci()
+  {
+    var a=document.getElementsByClassName('circle');
+    a[0].style.opacity="1";
+  }
+  setTimeout(secondci,5400);
+   function secondcin()
+  {
+    var a=document.getElementsByClassName('i-letter');
+    a[0].style.opacity="1";
+  }
+  setTimeout(secondcin,4200);
+    function secondcini()
+  {
+    var a=document.getElementsByClassName('ball');
+    a[0].style.opacity="1";
+  }
+  setTimeout(secondcini,4800);
+</script>
+</body>
+</html>	

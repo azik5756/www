@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*
+{
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing :antialiased;
+}
+body
+{
+	margin:0;
+	padding:0;
+	background-image: url('images/az.png');
+	background-repeat: no-repeat;
+    background-position: -10px 90%;
+    background-size: 48%;
+    background-attachment: fixed;
+}
+
+
+/*Styles for left-block*/
+
+
+.left-block span
+{
+	font-weight: bold;
+}
+.left-block>span:first-child
+{
+	font-size:65px;
+}
+#w
+{
+	font-size:85px;
+}
+.left-block
+{
+	margin-left:8%;
+	margin-top:134px;
+	width:25%;
+	color:white;
+	float: left;
+	position: fixed;
+}
+
+
+/*Styles for right-block*/
+
+
+.right-block
+{
+	width:52%;
+	float:right;
+}
+.right-block
+{
+	color:#666666;
+	font-size: 10px;
+}
+#r
+{
+	color:black;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+
+/*Styles for registration */
+
+
+.right-block .register p span
+{
+	color:#8ed2da;
+}
+.register
+{
+	width:35%;
+	margin-left:100px;
+	margin-top: 85px;
+}
+.register~div
+{
+	color:#373634;
+	font-size: 10px;
+	font-weight: bold;
+	padding-bottom:15px; 
+	margin:4.5% 0 0 100px;
+	border-bottom:1px solid #b5b5b5;
+	width:60%;
+}
+.register~div input
+{
+	outline:none;
+	border:none;
+}
+.password input
+{
+	margin-left:30px;
+}
+.phone input
+{
+	margin-left:50px;
+}
+.mail input
+{
+	margin-left:42px;
+}
+#name input
+{
+	margin-left:54px;
+}
+#accept-rules
+{
+	border:none;
+	padding:none;
+	color:#b5b5b5;
+	font-weight: normal;
+	font-size: 11px;
+	margin-top: 23px;
+	position:relative;
+}
+#accept-rules span
+{
+	margin-left:15px;
+	position:absolute;
+	top:4px;
+}
+#login
+{
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	padding:19px 65px;
+	background-color: #fa1744;
+	border:none;
+	margin-top:45px;
+	margin-left: 49%;
+	outline:none;
+	cursor:pointer;
+	border-radius:35px;
+	transition:box-shadow .3s,transform .3s;
+}
+#login:hover
+{
+	box-shadow: 0 0 46px 13px #fee0e6;
+	transform: scale(1.05);
+	transition: .3s ease;
+}
+#social
+{
+	display: block;
+	margin-left: 100px;
+	margin-top: 56px;
+	color:#b5b5b5;
+	font-weight: normal;
+	font-size: 11px;
+}
+.social-links a
+{
+	text-decoration: none;
+	display: inline-block;
+	color:#fff;
+	font-size: 10px;
+	padding:12px 0;
+	width:30%;
+	text-align: center;
+	border-radius:50px;
+	margin-right: 2.5%;
+}
+.social-links a:first-child 
+{
+	background-color: #225498;
+}
+.social-links a:nth-child(2)
+{
+	background-color: #1da0f1;
+}
+.social-links a:last-child 
+{
+	background-color: #dd4b38;
+}
+.social-links a i 
+{
+	margin-right:17px;
+}
+.clear
+{
+	clear: both;
+}
